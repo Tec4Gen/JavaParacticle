@@ -8,9 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-<form method="POST" action="AddStudent/" >
+<form method="POST" action="add" >
 
     <h1>Добавление студента</h1>
+
+    <p><a href="all">Get all</a></p>
+    <p><a href="exel">Get excellent</a></p>
+    <p><a href="bc">Get students with blockchain</a></p>
 
     <div>
         <input name="name">
@@ -20,10 +24,13 @@
         <input name="average-score">
         <label>Average score</label>
     </div>
-    <div>
-        <input type="checkbox" name="isBlockChain">
-        <label>Block Chain</label>
-    </div>
+
+    <label>
+        <select name = "isBlockChain">
+            <option>True</option>
+            <option>False</option>
+        </select>>
+    </label>
 
     <button>Добавить</button>
 

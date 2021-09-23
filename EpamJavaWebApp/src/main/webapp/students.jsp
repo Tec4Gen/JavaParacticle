@@ -25,5 +25,6 @@
                 </tr>
             </c:forEach>
         </table>
+         <p><a href="index.html">Back</a></p>
     </body>
 </html>

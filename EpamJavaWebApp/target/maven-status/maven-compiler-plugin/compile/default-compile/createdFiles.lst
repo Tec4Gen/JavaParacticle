@@ -1,5 +1,8 @@
 services\StudentService.class
 services\StudentValidator.class
-services\StorageData.class
-servlet\Servlet.class
+services\StudentsDao.class
+servlet\GetAllStudentsServlet.class
+servlet\GetExcellentStudentsServlet.class
+servlet\GetWithBlockChainStudentsServlet.class
+servlet\AddServlet.class
 entities\Student.class

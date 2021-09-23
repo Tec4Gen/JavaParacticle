@@ -3,7 +3,7 @@ package services;
 import entities.Student;
 import java.util.ArrayList;
 
-public class StorageData {
+public class StudentsDao {
 
     public static ArrayList<Student> students;
 
@@ -38,6 +38,14 @@ public class StorageData {
         students.add(new Student("Тарасов Олег", 3.09d, false));
         students.add(new Student("Черникова Алина", 4.01d, false));
         students.add(new Student("Кулаков Максим", 3.85d, true));
+    }
+
+    public static ArrayList<Student> getStudents() {
+        return students;
+    }
+
+    public static void addStudent(Student student) {
+        students.add(student);
     }
 }
 
